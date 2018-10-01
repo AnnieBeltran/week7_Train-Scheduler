@@ -1,7 +1,7 @@
 // Initialize Firebase
 
   // Initialize Firebase
- /* var config = {
+ var config = {
     apiKey: "AIzaSyC_QhXzYztVygVVTDq_F1ccn1YEwEhGtKo",
     authDomain: "train-scheduler-ucsd.firebaseapp.com",
     databaseURL: "https://train-scheduler-ucsd.firebaseio.com",
@@ -12,7 +12,7 @@
   firebase.initializeApp(config);
 
 
-var trainData = firebase.database().ref(); */
+var trainData = firebase.database().ref(); 
 
 //Shows user the current time
 $("#currentTime").append(moment().format("hh:mm A"));
